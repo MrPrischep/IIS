@@ -1,0 +1,19 @@
+$lg: '1200px';
+
+.navigator {
+    padding: 0 22px 0 22px;
+}
+
+.navigatorItem{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.navigatorLink {
+    white-space: nowrap;
+
+    &:hover {
+        transition: all 0.3s;
+        color:  #c7c7c7 !important;
+    }
+}
